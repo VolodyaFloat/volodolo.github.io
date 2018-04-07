@@ -1,0 +1,203 @@
+/* Здесь будут храниться стили нашего сайта */
+body {
+	margin: 0;
+	font-family: 'Roboto'
+}
+img {
+	max-width: 100%
+}
+header {
+	padding-bottom: 22px;
+	padding: 59px;
+	background-color: #3a7dfd;
+	color:#ffffff;
+	font-size: 18px;
+}
+.Web-developer{
+	margin-top: 102px;
+}
+.name{
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 36.81px;
+	margin-top: 21px;
+}
+.header_text{
+	margin-top: 20px;
+}
+.header-button{
+	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+	border-radius: 50px;
+	background-color: #ffffff;
+	color: #072b6f;
+	font-weight: 700;
+	font-size: 18px;
+	padding: 17px 55px;
+	margin-top: 33px;
+}
+header small {
+	font-size: 12px;
+	display: block;
+	font-weight: 400;
+	padding: 9px 58px;
+}
+/*-----------------------------------------*/
+/* Секция потфолио*/
+/*-----------------------------------------*/
+.portfolio {
+	background-color: #dddddd;
+	padding-top: 44px;
+	padding-bottom: 71px;
+}
+.port_block {
+	background-color: #ffffff;
+}
+.portfolio_name {
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+	padding-top: 29px;
+	text-align: center;
+}
+.portfolio_name2 {
+	color: #7bb9ff;
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 10px;
+	text-align: center;
+}
+.gazprom {
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-bottom: 16px;
+}
+.world {
+	padding-top: 30px;
+	padding-bottom: 16px;
+	padding-right: 50px;
+}
+section h3 {
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: Roboto;
+}
+section p {
+	color: #8f8f8f;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+}
+section a {
+	color: #072b6f;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+/*---------------------------------*/
+/*Оформление подвала*/
+/*---------------------------------*/
+footer {
+	background-color: #3a7dfd;
+	font-family: Roboto;
+	color: #fefefe;
+}
+.author {
+	font-size: 22px;
+	margin-bottom: 7px;
+	margin-top: 60px;
+	color: #deedfe;
+}
+.text10 {
+	margin-top: 0;
+	margin-bottom: 126px;
+	color: #deedfe;
+}
+.Subcscribe {
+	text-align: center;
+}
+.text20 {
+	margin-top: 64px;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 0;
+	color: #deedfe;
+}
+.picture4 {
+	margin-top: 21px;
+}
+.picture10 {
+padding-right: 26px;
+}
+.picture20 {
+padding-right: 26px;
+padding-left: 0;
+}
+.picture30 {
+padding-right: 26px;
+padding-left: 0;
+}
+.picture40 {
+padding-right: 26px;
+padding-left: 0;
+}
+
+.write_me{
+	padding-top: 40px;
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 39.8px;
+	color: #deedfe;
+}
+.buttom_2{
+	display: inline-block;
+	border: 1px solid #deedfe;
+	background-color: transparent;
+	color: #deedfe;
+	font-size: 16px;
+	border-radius: 40px;
+	width: 90px;
+	text-align: center;
+}
+@media (max-width: 992px) {
+	header img  {
+		display: none;
+
+	}
+	.Web-developer{
+	margin-top: 30px;
+}
+	.write_me {
+	font-size: 14px;
+	}
+	.text20 {
+	font-size: 14px;
+	}
+	.author {
+	font-size: 19px;
+	}
+	.text10 {
+	font-size: 14px
+	}
+	.picture10 {
+	padding-right: 15px;
+	}
+	.picture20 {
+	padding-right: 15px;
+	padding-left: 0;
+	}
+	.picture30 {
+	padding-right: 15px;
+	padding-left: 0;
+	}
+	.picture40 {
+	padding-right: 15px;
+	padding-left: 0;
+	}
+}
